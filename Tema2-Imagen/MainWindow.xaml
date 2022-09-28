@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Imagen" Height="450" Width="860" Icon="Logo.png">
     <Grid Margin="0,0,2,0">
-        <Image x:Name="Imagen_Cuadro" HorizontalAlignment="Left" Height="368" Margin="41,28,0,0" VerticalAlignment="Top" Width="433" Source="Mondongo.jpeg">
+        <Image x:Name="Imagen_Cuadro" HorizontalAlignment="Left" Height="349" Margin="41,28,0,0" VerticalAlignment="Top" Width="422" Source="Mondongo.jpeg">
             <Image.Effect>
                 <DropShadowEffect Direction="321" BlurRadius="10" ShadowDepth="6" Color="#FF7C7C7C"/>
             </Image.Effect>

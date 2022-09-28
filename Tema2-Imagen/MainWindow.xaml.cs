@@ -27,37 +27,37 @@ namespace Tema2_Imagen
 
         private void Relleno_Radio_Checked(object sender, RoutedEventArgs e)
         {
-
+            Imagen_Cuadro.Stretch = Stretch.Fill;
         }
 
         private void Alta_Radio_Checked(object sender, RoutedEventArgs e)
         {
-
+            Imagen_Cuadro.Opacity = 1;
         }
 
         private void Media_Radio_Checked(object sender, RoutedEventArgs e)
         {
-
+            Imagen_Cuadro.Opacity = 0.5;
         }
 
         private void Baja_Radio_Checked(object sender, RoutedEventArgs e)
         {
-
+            Imagen_Cuadro.Opacity = 0.2;
         }
 
         private void Uniforme_Radio_Checked(object sender, RoutedEventArgs e)
         {
-
+            Imagen_Cuadro.Stretch = Stretch.Uniform;
         }
 
         private void Relleno_Uniforme_Radio_Checked(object sender, RoutedEventArgs e)
         {
-
+            Imagen_Cuadro.Stretch = Stretch.UniformToFill;
         }
 
         private void SinAjuste_Radio_Checked(object sender, RoutedEventArgs e)
         {
-
+            Imagen_Cuadro.Stretch = Stretch.None;
         }
     }
 }
